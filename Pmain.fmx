@@ -1,0 +1,107 @@
+object Main: TMain
+  Left = 0
+  Top = 0
+  Caption = 'Main'
+  ClientHeight = 480
+  ClientWidth = 628
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object Rectangle1: TRectangle
+    Fill.Color = claSaddlebrown
+    Position.X = -8.000000000000000000
+    Position.Y = -24.000000000000000000
+    Size.Width = 640.000000000000000000
+    Size.Height = 600.000000000000000000
+    Size.PlatformDefault = False
+    object Rectangle2: TRectangle
+      Fill.Color = xFFE7BC6A
+      Position.X = 40.000000000000000000
+      Position.Y = 24.000000000000000000
+      Size.Width = 257.000000000000000000
+      Size.Height = 65.000000000000000000
+      Size.PlatformDefault = False
+    end
+    object Label1: TLabel
+      StyledSettings = []
+      Position.X = 56.000000000000000000
+      Position.Y = 16.000000000000000000
+      Size.Width = 273.000000000000000000
+      Size.Height = 49.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = 'Label1Style1'
+      TextSettings.Font.Family = 'Gabriola'
+      TextSettings.Font.Size = 30.000000000000000000
+      TextSettings.Font.StyleExt = {04070000000200000004000000}
+      TextSettings.WordWrap = False
+      Text = 'FISICA LABORATORIO'
+      TabOrder = 0
+    end
+    object MedidaDirectaUnica: TRadioButton
+      StyledSettings = [Family, Style, FontColor]
+      Position.X = 40.000000000000000000
+      Position.Y = 121.000000000000000000
+      Size.Width = 497.000000000000000000
+      Size.Height = 49.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 1
+      Text = 'Medidas Directa Unica'
+      TextSettings.Font.Size = 25.000000000000000000
+      OnChange = MedidaDirectaUnicaChange
+    end
+    object FloatKeyAnimation1: TFloatKeyAnimation
+      Duration = 0.200000002980232200
+      Keys = <>
+      PropertyName = 'Opacity'
+      StartFromCurrent = False
+    end
+    object SerieMedidasDirectas: TRadioButton
+      StyledSettings = [Family, Style, FontColor]
+      Position.X = 40.000000000000000000
+      Position.Y = 178.000000000000000000
+      Size.Width = 289.000000000000000000
+      Size.Height = 39.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 3
+      Text = 'SerieMedidasDirectas'
+      TextSettings.Font.Size = 25.000000000000000000
+      OnChange = SerieMedidasDirectasChange
+    end
+    object SerieMedidasIndirectas: TRadioButton
+      StyledSettings = [Family, Style, FontColor]
+      Position.X = 40.000000000000000000
+      Position.Y = 225.000000000000000000
+      Size.Width = 273.000000000000000000
+      Size.Height = 41.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 4
+      Text = 'SerieMedidasIndirectas'
+      TextSettings.Font.Size = 25.000000000000000000
+      OnChange = SerieMedidasIndirectasChange
+    end
+    object INICIAR: TButton
+      Enabled = False
+      Position.X = 56.000000000000000000
+      Position.Y = 320.000000000000000000
+      Size.Width = 161.000000000000000000
+      Size.Height = 65.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 6
+      Text = 'INICIAR'
+      TextSettings.Trimming = None
+      OnClick = INICIARClick
+    end
+    object CERRRAR: TButton
+      Position.X = 400.000000000000000000
+      Position.Y = 320.000000000000000000
+      Size.Width = 161.000000000000000000
+      Size.Height = 65.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 5
+      Text = 'CERRRAR'
+      TextSettings.Trimming = None
+      OnClick = CERRRARClick
+    end
+  end
+end

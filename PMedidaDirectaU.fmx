@@ -1,0 +1,169 @@
+object FMedidaDirectaU: TFMedidaDirectaU
+  Left = 0
+  Top = 0
+  Caption = 'FMedidaDirectaU'
+  ClientHeight = 488
+  ClientWidth = 657
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object Rectangle1: TRectangle
+    Fill.Kind = Gradient
+    Fill.Gradient.Points = <
+      item
+        Color = xFF2AF33F
+        Offset = 0.000000000000000000
+      end
+      item
+        Color = claWhite
+        Offset = 1.000000000000000000
+      end>
+    Fill.Gradient.StartPosition.X = 0.500000000000000000
+    Fill.Gradient.StartPosition.Y = 1.000000000000000000
+    Fill.Gradient.StopPosition.X = 0.499999970197677600
+    Fill.Gradient.StopPosition.Y = 0.000000000000000000
+    Size.Width = 657.000000000000000000
+    Size.Height = 489.000000000000000000
+    Size.PlatformDefault = False
+    object Label1: TLabel
+      StyledSettings = [Family, Style, FontColor]
+      Position.X = 64.000000000000000000
+      Position.Y = 32.000000000000000000
+      Size.Width = 297.000000000000000000
+      Size.Height = 65.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 25.000000000000000000
+      Text = 'MEDIDA DIRECTA UNICA'
+      TabOrder = 0
+    end
+    object Label2: TLabel
+      StyledSettings = [Family, Style, FontColor]
+      Position.X = 48.000000000000000000
+      Position.Y = 152.000000000000000000
+      Size.Width = 113.000000000000000000
+      Size.Height = 41.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 20.000000000000000000
+      Text = 'VALOR :'
+      TabOrder = 2
+      object Valor: TEdit
+        Touch.InteractiveGestures = [LongTap, DoubleTap]
+        TabOrder = 4
+        Position.X = 104.000000000000000000
+        Position.Y = 8.000000000000000000
+        Size.Width = 201.000000000000000000
+        Size.Height = 41.000000000000000000
+        Size.PlatformDefault = False
+      end
+    end
+    object Label3: TLabel
+      StyledSettings = [Family, Style, FontColor]
+      Position.X = 48.000000000000000000
+      Position.Y = 209.000000000000000000
+      Size.Width = 113.000000000000000000
+      Size.Height = 41.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 20.000000000000000000
+      Text = 'ERROR :'
+      TabOrder = 1
+      object Label4: TLabel
+        StyledSettings = [Family, Style, FontColor]
+        Position.Y = 48.000000000000000000
+        Size.Width = 113.000000000000000000
+        Size.Height = 41.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.Font.Size = 20.000000000000000000
+        Text = 'UNIDAD :'
+        TabOrder = 1
+        object UnidadMedida: TEdit
+          Touch.InteractiveGestures = [LongTap, DoubleTap]
+          TabOrder = 4
+          Position.X = 104.000000000000000000
+          Size.Width = 193.000000000000000000
+          Size.Height = 41.000000000000000000
+          Size.PlatformDefault = False
+        end
+      end
+    end
+    object Error: TEdit
+      Touch.InteractiveGestures = [LongTap, DoubleTap]
+      TabOrder = 3
+      Position.X = 152.000000000000000000
+      Position.Y = 209.000000000000000000
+      Size.Width = 193.000000000000000000
+      Size.Height = 41.000000000000000000
+      Size.PlatformDefault = False
+    end
+    object CONVERTIR: TButton
+      Position.X = 408.000000000000000000
+      Position.Y = 111.000000000000000000
+      Size.Width = 193.000000000000000000
+      Size.Height = 89.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 4
+      Text = 'CONVERTIR'
+      TextSettings.Trimming = None
+      OnClick = CONVERTIRClick
+    end
+    object Label5: TLabel
+      StyledSettings = [Family, Style, FontColor]
+      Position.X = 8.000000000000000000
+      Position.Y = 352.000000000000000000
+      Size.Width = 161.000000000000000000
+      Size.Height = 49.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 25.000000000000000000
+      Text = 'MEDICION :'
+      TabOrder = 5
+    end
+    object Medicion: TEdit
+      Touch.InteractiveGestures = [LongTap, DoubleTap]
+      TabOrder = 6
+      Position.X = 152.000000000000000000
+      Position.Y = 352.000000000000000000
+      Size.Width = 497.000000000000000000
+      Size.Height = 49.000000000000000000
+      Size.PlatformDefault = False
+    end
+    object VOLVER: TButton
+      Position.X = 408.000000000000000000
+      Position.Y = 272.000000000000000000
+      Size.Width = 185.000000000000000000
+      Size.Height = 57.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 7
+      Text = 'VOLVER'
+      TextSettings.Trimming = None
+      OnClick = VOLVERClick
+    end
+    object LIMPIAR: TButton
+      Position.X = 416.000000000000000000
+      Position.Y = 208.000000000000000000
+      Size.Width = 177.000000000000000000
+      Size.Height = 49.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 8
+      Text = 'LIMPIAR'
+      TextSettings.Trimming = None
+      OnClick = LIMPIARClick
+    end
+  end
+  object f1: TBrushObject
+    StyleName = 'f1'
+    Brush.Kind = Gradient
+    Brush.Gradient.Points = <
+      item
+        Color = xFF2AF33F
+        Offset = 0.000000000000000000
+      end
+      item
+        Color = claWhite
+        Offset = 1.000000000000000000
+      end>
+    Brush.Gradient.StartPosition.X = 0.500000000000000000
+    Brush.Gradient.StartPosition.Y = 1.000000000000000000
+    Brush.Gradient.StopPosition.X = 0.499999970197677600
+    Brush.Gradient.StopPosition.Y = 0.000000000000000000
+  end
+end

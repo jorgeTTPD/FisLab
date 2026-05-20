@@ -1,0 +1,24 @@
+inherited FSerieIndirectas_LgXhdpiTb: TFSerieIndirectas_LgXhdpiTb
+  ClientHeight = 829
+  ClientWidth = 480
+  DesignerMasterStyle = 3
+  inherited Rectangle1: TRectangle
+    Position.Y = 8.000000000000000000
+    Size.Height = 821.000000000000000000
+    inherited Button1: TButton
+      Position.X = 145.000000000000000000
+      Position.Y = 512.000000000000000000
+      Size.Width = 177.000000000000000000
+      Size.Height = 81.000000000000000000
+    end
+    inherited Label2: TLabel
+      Position.X = 16.000000000000000000
+      Position.Y = 80.000000000000000000
+    end
+    inherited BROMA: TButton
+      Position.X = 16.000000000000000000
+      Position.Y = 335.000000000000000000
+      Size.Width = 417.000000000000000000
+    end
+  end
+end

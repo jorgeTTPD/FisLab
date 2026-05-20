@@ -1,0 +1,21 @@
+inherited GraficoGauss_LgXhdpiTb: TGraficoGauss_LgXhdpiTb
+  ClientHeight = 829
+  ClientWidth = 480
+  DesignerMasterStyle = 3
+  inherited Rectangle1: TRectangle
+    Size.Height = 837.000000000000000000
+    inherited SALIR: TButton
+      Position.X = 24.000000000000000000
+      Position.Y = 536.000000000000000000
+    end
+    inherited Graphico: TChart
+      Position.X = 8.000000000000000000
+      Position.Y = 121.000000000000000000
+      Foot.Font.StyleExt = {00040000000200000004000000}
+      Legend.Title.Font.StyleExt = {00070000000000000004000000}
+      SubFoot.Font.StyleExt = {00040000000200000004000000}
+      Size.Width = 441.000000000000000000
+      Size.Height = 344.000000000000000000
+    end
+  end
+end

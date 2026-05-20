@@ -1,0 +1,99 @@
+object GraficoGauss: TGraficoGauss
+  Left = 0
+  Top = 0
+  Caption = 'GraficoGauss'
+  ClientHeight = 480
+  ClientWidth = 640
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 3
+  object Rectangle1: TRectangle
+    Fill.Kind = Gradient
+    Fill.Gradient.Points = <
+      item
+        Color = xFF2D5435
+        Offset = 0.000000000000000000
+      end
+      item
+        Color = claWhite
+        Offset = 1.000000000000000000
+      end>
+    Fill.Gradient.StartPosition.X = 0.500000000000000000
+    Fill.Gradient.StartPosition.Y = 1.000000000000000000
+    Fill.Gradient.StopPosition.X = 0.499999970197677600
+    Fill.Gradient.StopPosition.Y = 0.000000000000000000
+    Position.Y = -8.000000000000000000
+    Size.Width = 641.000000000000000000
+    Size.Height = 480.000000000000000000
+    Size.PlatformDefault = False
+    Stroke.Kind = Gradient
+    Stroke.Gradient.Points = <
+      item
+        Color = xFFEB4E4E
+        Offset = 0.000000000000000000
+      end
+      item
+        Color = claWhite
+        Offset = 1.000000000000000000
+      end>
+    object Label1: TLabel
+      StyledSettings = [Family, Style, FontColor]
+      Position.X = 104.000000000000000000
+      Position.Y = 24.000000000000000000
+      Size.Width = 321.000000000000000000
+      Size.Height = 49.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 26.000000000000000000
+      Text = 'DISTRIBUCION NORMAL'
+      TabOrder = 0
+    end
+    object SALIR: TButton
+      Position.X = 56.000000000000000000
+      Position.Y = 416.000000000000000000
+      Size.Width = 185.000000000000000000
+      Size.Height = 41.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 2
+      Text = 'SALIR'
+      TextSettings.Trimming = None
+      OnClick = SALIRClick
+    end
+    object Graphico: TChart
+      Position.X = 24.000000000000000000
+      Position.Y = 72.000000000000000000
+      Foot.Font.StyleExt = {00040000000200000004000000}
+      Legend.Title.Font.StyleExt = {00070000000000000004000000}
+      SubFoot.Font.StyleExt = {00040000000200000004000000}
+      Title.Text.Strings = (
+        'TChart')
+      Zoom.Brush.Kind = None
+      Zoom.Pen.Fill.Color = claSilver
+      TabOrder = 3
+      Size.Width = 577.000000000000000000
+      Size.Height = 313.000000000000000000
+      Size.PlatformDefault = False
+      ColorPaletteIndex = 13
+      object Series1: TPointSeries
+        HoverElement = [heCurrent]
+        ClickableLine = False
+        Pointer.InflateMargins = True
+        Pointer.Style = psRectangle
+        XValues.Name = 'X'
+        XValues.Order = loAscending
+        YValues.Name = 'Y'
+        YValues.Order = loNone
+      end
+      object Series2: TLineSeries
+        HoverElement = [heCurrent]
+        Brush.BackColor = x00FFFFFF
+        Pointer.InflateMargins = True
+        Pointer.Style = psRectangle
+        XValues.Name = 'X'
+        XValues.Order = loAscending
+        YValues.Name = 'Y'
+        YValues.Order = loNone
+      end
+    end
+  end
+end

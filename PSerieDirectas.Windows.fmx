@@ -1,0 +1,9 @@
+inherited FSerieDirectas_Windows: TFSerieDirectas_Windows
+  DesignerMasterStyle = 0
+  inherited Rectangle1: TRectangle
+    inherited Memo1: TMemo
+      Viewport.Width = 193.000000000000000000
+      Viewport.Height = 205.000000000000000000
+    end
+  end
+end

@@ -1,0 +1,15 @@
+inherited Main_LgXhdpiTb: TMain_LgXhdpiTb
+  ClientHeight = 829
+  ClientWidth = 480
+  DesignerMasterStyle = 3
+  inherited Rectangle1: TRectangle
+    Size.Height = 873.000000000000000000
+    inherited Label1: TLabel
+      TextSettings.Font.StyleExt = {04070000000200000004000000}
+    end
+    inherited CERRRAR: TButton
+      Position.X = 64.000000000000000000
+      Position.Y = 424.000000000000000000
+    end
+  end
+end

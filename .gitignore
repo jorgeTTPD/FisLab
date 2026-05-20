@@ -1,0 +1,13 @@
+# Excluir carpetas de compilación de Delphi
+**/Win32/
+**/Win64/
+**/Android/
+**/Android64/
+**/__history/
+
+# Excluir archivos temporales específicos
+*.dcu
+*.~*
+*.identcache
+*.stat
+*.local

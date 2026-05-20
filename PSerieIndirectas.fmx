@@ -1,0 +1,97 @@
+object FSerieIndirectas: TFSerieIndirectas
+  Left = 0
+  Top = 0
+  Caption = 'FSerieIndirectas'
+  ClientHeight = 480
+  ClientWidth = 640
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 3
+  object Rectangle1: TRectangle
+    Fill.Kind = Gradient
+    Fill.Gradient.Points = <
+      item
+        Color = claNull
+        Offset = 0.000000000000000000
+      end
+      item
+        Color = xFF506ABE
+        Offset = 0.301242232322692900
+      end
+      item
+        Color = claWhite
+        Offset = 1.000000000000000000
+      end>
+    Fill.Gradient.StartPosition.X = 0.500000000000000000
+    Fill.Gradient.StartPosition.Y = 1.000000000000000000
+    Fill.Gradient.StopPosition.X = 0.499999970197677600
+    Fill.Gradient.StopPosition.Y = 0.000000000000000000
+    Position.X = 8.000000000000000000
+    Size.Width = 633.000000000000000000
+    Size.Height = 449.000000000000000000
+    Size.PlatformDefault = False
+    object ds: TLabel
+      StyledSettings = [Family, Style, FontColor]
+      Position.X = 56.000000000000000000
+      Position.Y = 16.000000000000000000
+      Size.Width = 377.000000000000000000
+      Size.Height = 65.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 25.000000000000000000
+      Text = 'Serie Medidas Indirectas'
+      TabOrder = 0
+    end
+    object Button1: TButton
+      Position.X = 32.000000000000000000
+      Position.Y = 264.000000000000000000
+      Size.Width = 233.000000000000000000
+      Size.Height = 121.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 1
+      Text = 'CERRAR'
+      TextSettings.Trimming = None
+      OnClick = Button1Click
+    end
+    object Label2: TLabel
+      StyledSettings = [Family, Style, FontColor]
+      Position.X = 32.000000000000000000
+      Position.Y = 72.000000000000000000
+      Size.Width = 561.000000000000000000
+      Size.Height = 65.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 25.000000000000000000
+      Text = 'EN CONSTRUCCION COMING SOON................'
+      TabOrder = 2
+    end
+    object BROMA: TButton
+      Position.X = 352.000000000000000000
+      Position.Y = 288.000000000000000000
+      Size.Width = 201.000000000000000000
+      Size.Height = 113.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 3
+      Text = 'NO TOCAR'
+      TextSettings.Trimming = None
+      OnClick = BROMAClick
+    end
+    object MediaPlayerControl1: TMediaPlayerControl
+      Size.Width = 385.000000000000000000
+      Size.Height = 73.000000000000000000
+      Size.PlatformDefault = False
+      MediaPlayer = MediaPlayer1
+      Position.X = 120.000000000000000000
+      Position.Y = 144.000000000000000000
+      Visible = False
+    end
+  end
+  object MediaPlayer1: TMediaPlayer
+    Left = 47
+    Top = 176
+  end
+  object Timer1: TTimer
+    OnTimer = Timer1Timer
+    Left = 447
+    Top = 32
+  end
+end

@@ -1,0 +1,38 @@
+inherited FMedidaDirectaU_LgXhdpiTb: TFMedidaDirectaU_LgXhdpiTb
+  ClientHeight = 829
+  ClientWidth = 480
+  DesignerMasterStyle = 0
+  inherited Rectangle1: TRectangle
+    Size.Height = 821.000000000000000000
+    inherited Label2: TLabel
+      inherited Valor: TEdit
+        Size.Height = 32.000000000000000000
+      end
+    end
+    inherited Label3: TLabel
+      inherited Label4: TLabel
+        inherited UnidadMedida: TEdit
+          Size.Height = 32.000000000000000000
+        end
+      end
+    end
+    inherited Error: TEdit
+      Size.Height = 32.000000000000000000
+    end
+    inherited CONVERTIR: TButton
+      Position.X = 32.000000000000000000
+      Position.Y = 392.000000000000000000
+    end
+    inherited Medicion: TEdit
+      Size.Height = 32.000000000000000000
+    end
+    inherited VOLVER: TButton
+      Position.X = 264.000000000000000000
+      Position.Y = 410.000000000000000000
+    end
+    inherited LIMPIAR: TButton
+      Position.X = 48.000000000000000000
+      Position.Y = 489.000000000000000000
+    end
+  end
+end
