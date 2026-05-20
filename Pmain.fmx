@@ -46,7 +46,7 @@ object Main: TMain
       Size.Height = 49.000000000000000000
       Size.PlatformDefault = False
       TabOrder = 1
-      Text = 'Medidas Directa Unica'
+      Text = 'Medidas  Directa Unica'
       TextSettings.Font.Size = 25.000000000000000000
       OnChange = MedidaDirectaUnicaChange
     end
