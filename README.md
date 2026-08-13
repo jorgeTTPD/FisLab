@@ -3,7 +3,7 @@
 *Physics laboratory app built with **Delphi 12** (FireMonkey, multi-device: Windows + Android).*
 **Aplicación de laboratorio de física hecha en Delphi 12 (FireMonkey, multi-dispositivo: Windows + Android).**
 
-![Captura 1](Captura%20de%20pantalla%202026-08-12%20181731.png)
+<img src="Captura%20de%20pantalla%202026-08-12%20181731.png" alt="Captura 1" width="600">
 
 ## ⚠️ Estado del proyecto · *Project status*
 
@@ -17,15 +17,15 @@
 
 ## 📖 ¿Qué es? · *What is it?*
 
-FisLab es una herramienta de laboratorio para procesar **mediciones físicas** y sus **errores**: calcula el valor medio, la desviación estándar, el error promedio y el error de medición, formatea resultados en notación científica `(valor ± error) [unidad]; %error` y grafica la distribución de Gauss.
+FisLab es una herramienta de laboratorio para procesar **mediciones físicas** y sus **errores**: calcula el valor medio, la desviación estándar, el error promedio y el error de medición, formatea resultados en formato estándar de medición `(valor ± error) [unidad]; %error` y grafica la distribución de Gauss.
 
-*FisLab is a lab tool for processing **physical measurements** and their **errors**: it computes the mean value, standard deviation, average error and measurement error, formats results in scientific notation `(value ± error) [unit]; %error`, and plots the Gaussian distribution.*
+*FisLab is a lab tool for processing **physical measurements** and their **errors**: it computes the mean value, standard deviation, average error and measurement error, formats results in standard measurement notation `(value ± error) [unit]; %error`, and plots the Gaussian distribution.*
 
 ## ✨ Funcionalidades · *Features*
 
 - 📏 **Medición directa** (`PMedidaDirectaU`): formato `(valor ± error) [unidad]; %error` con redondeo correcto según el error · *Direct measurement with proper error-based rounding*
 - 📊 **Serie de mediciones directas** (`PSerieDirectas`): media, desviación estándar, error promedio y error de medición · *Direct measurement series: mean, std. deviation, average & measurement error*
-- 🔄 **Serie indirecta** (`PSerieIndirectas`): propagación de errores en magnitudes indirectas · *Indirect series: error propagation*
+- 🔄 **Serie indirecta** (`PSerieIndirectas`): propagación de errores en magnitudes indirectas… y un botón 🎉 **BROMA** con audio · *Indirect series: error propagation… plus a 🎉 **JOKE** button with audio easter egg*
 - 🧮 **Calculadora estadística** (`UCalculadora`): media, desviación estándar muestral, error promedio, error de medición · *Statistical calculator*
 - 📁 **Carga de datos desde TXT** (`ULectorTXT` + tokenizador de columnas) · *Load data from TXT files*
 - 📈 **Gráfica de Gauss** (`GraficoUnit`) con TChart · *Gaussian plot with TChart*
@@ -52,4 +52,4 @@ FisLab es una herramienta de laboratorio para procesar **mediciones físicas** y
 
 ## 🖼️ Capturas · *Screenshots*
 
-![Captura 2](Captura%20de%20pantalla%202026-08-12%20181759.png)
+<img src="Captura%20de%20pantalla%202026-08-12%20181759.png" alt="Captura 2" width="600">
